@@ -12,12 +12,12 @@ import 'bootstrap/dist/css/bootstrap.css';
 // Styles
 import './styles.css';
 // Componentes
-import Badge from './components/Badge';
+import BadgeNew from './pages/BadgeNew';
 
 const container = document.getElementById('app');
 
 // ReactDOM.render(__qué__, __dónde__);
-ReactDOM.render(<Badge 
+ReactDOM.render(<BadgeNew 
   firstName='Jose Alejandro' 
   lastName='Oyamat' 
   profession='Frontend Engineer'
